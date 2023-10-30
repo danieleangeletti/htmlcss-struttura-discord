@@ -16,15 +16,38 @@
     align-items: center;
 }
 
-.casella {
-    width: calc(50% / 3);
+.first-container {
+    width: 75%;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.casella-1 {
+    flex-grow: 1;
     height: 30px;
     background-color: orange;
     border: 1px dashed black;
+    line-height: 30px;
 }
 
-#casella-grande {
-    width: calc(50% / 3 * 2.5);
+.casella-2 {
+    flex-grow: 2;
+    height: 30px;
+    background-color: orange;
+    border: 1px dashed black;
+    text-align: center;
+    line-height: 30px;
+}
+
+.casella-3 {
+    flex-grow: 1;
+    height: 30px;
+    background-color: orange;
+    border: 1px dashed black;
+    text-align: end;
+    line-height: 30px;
 }
 
 .big-container {
@@ -35,18 +58,18 @@
     align-items: center;
 }
 
-.block {
-    width: 800px;
+.blue {
+    background-color: blue;
+}
+
+.second-container {
+    width: 60%;
     height: 260px;
     border: 1px dashed black;
 }
 
 .pink {
     background-color: pink;
-}
-
-.blue {
-    background-color: blue;
 }
 
 /* 
