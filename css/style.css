@@ -75,12 +75,15 @@
 /* 
     MAIN
 */
-.big-container-2 {
+.big-container {
     max-width: 1600px;
-    min-height: 340px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.higher {
+    min-height: 350px;
 }
 
 .white {
@@ -91,14 +94,28 @@
     background-color: grey;
 }
 
-.block-2 {
-    width: 380px;
+.lightblue {
+    background-color: cornflowerblue;
+}
+
+.third-container {
+    width: 75%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block {
+    flex-grow: 1.5;
     height: 300px;
     border: 1px dashed black;
 }
 
-.lightblue {
-    background-color: cornflowerblue;
+.block-2 {
+    flex-grow: 1;
+    height: 300px;
+    border: 1px dashed black;
 }
 
 .navajowhite {
