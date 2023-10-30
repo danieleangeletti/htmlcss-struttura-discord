@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 
+    HEADER
+*/
+
+.small-container {
+    max-width: 1600px;
+    min-height: 50px;
+    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.casella {
+    width: calc(50% / 3);
+    height: 30px;
+    background-color: orange;
+    border: 1px dashed black;
+}
+
+#casella-grande {
+    width: calc(50% / 3 * 2.5);
+}
+
+.big-container {
+    max-width: 1600px;
+    min-height: 300px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blocco {
+    width: 800px;
+    height: 260px;
+    background-color: pink;
+    border: 1px dashed black;
+}
+
+/* 
+    MAIN
+*/
+
+
+
