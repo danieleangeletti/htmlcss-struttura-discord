@@ -147,21 +147,40 @@
 .big-container-special {
     max-width: 1600px;
     min-height: 300px;
-    display: flex;
     border-bottom: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .black {
     background-color: black;
 }
 
-.last-container {
+.flex {
     width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.last-container {
     height: 300px;
     margin: 3px auto 20px;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-grow: 0.5;
+}
+
+.last-container-2 {
+    height: 300px;
+    margin: 3px auto 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
 }
 
 .block-x-1 {
@@ -173,7 +192,7 @@
 .block-x {
     flex-grow: 1;
     height: 300px;
-    border: 1px dashed black;
+    border: 1px dashed white;
 }
 
 .lightcoral {
