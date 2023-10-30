@@ -7,7 +7,6 @@
 /* 
     HEADER
 */
-
 .small-container {
     max-width: 1600px;
     min-height: 50px;
@@ -37,16 +36,52 @@
     align-items: center;
 }
 
-.blocco {
+.block {
     width: 800px;
     height: 260px;
-    background-color: pink;
     border: 1px dashed black;
+}
+
+.pink {
+    background-color: pink;
 }
 
 /* 
     MAIN
 */
+.big-container-2 {
+    max-width: 1600px;
+    min-height: 340px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.white {
+    background-color: white;
+}
+
+.grey {
+    background-color: grey;
+}
+
+.block-2 {
+    width: 380px;
+    height: 300px;
+    border: 1px dashed black;
+}
+
+.lightblue {
+    background-color: cornflowerblue;
+}
+
+.navajowhite {
+    background-color: navajowhite;
+}
+
+#bigger {
+    width: calc(380px * 2);
+}
 
 
