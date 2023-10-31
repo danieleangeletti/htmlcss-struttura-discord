@@ -166,21 +166,25 @@
 }
 
 .last-container {
-    height: 300px;
+    min-height: 300px;
     margin: 3px auto 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-grow: 0.5;
+    background-color: red;
+    border: 1px dashed yellow;
 }
 
 .last-container-2 {
-    height: 300px;
+    min-height: 300px;
     margin: 3px auto 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-grow: 1;
+    background-color: red;
+    border: 1px dashed yellow;
 }
 
 .block-x-1 {
